@@ -1,0 +1,57 @@
+#app {
+}
+
+h5 {
+    margin-bottom: 2px;
+}
+
+.day {
+    border-bottom: 1px solid gray;
+    padding: 20px 0;
+ }
+
+.date-header {
+    color: gray;
+    padding: 15px;
+}
+
+/* e.g. 27 */
+.date {
+    font-size: 45px;
+}
+
+/* text entry */
+.entry {
+    padding: 8px 0 8px 16px;
+}
+
+/* e.g. 12:00 */
+.time {
+    color: gray;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    width: 60px;
+    text-align:center;
+    font-size: 0.8em;
+}
+
+/* images */
+.image {
+    margin: 10px 0;
+}
+
+.landscape {
+    max-height: 400px;
+}
+
+.image-desc {
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: black;
+    margin-top: -7px;
+}
+
+a:hover, a:focus, .image-desc:hover, .image-desc:focus {
+    text-decoration: none !important;
+}
